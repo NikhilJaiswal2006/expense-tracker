@@ -1,0 +1,92 @@
+
+
+.registration{
+
+  background-image: url("../images/registraion.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;  
+  justify-content: center;
+  height: 97vh;
+  position: relative;
+}
+
+.registration::before{
+content: "";
+ position: absolute;
+ inset: 1;
+ background: rgba(23, 22, 22, 0.6);
+
+
+}
+.form-container{
+position: relative;
+width: 600px;
+border-radius: 15px;
+width: 700px;
+display: block;
+z-index: 1;
+background: rgba(15, 14, 14, 0.3);
+
+}
+
+.form-container h1{
+
+font-size: 50px;
+color: white ;
+text-align: center;
+margin-top: 100px;
+
+}
+
+
+.form-container input{
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  margin: 30px;
+  margin-left: 180px;
+  margin-top: 50px;
+  width: 300px;
+  border-radius: 15px;
+  border-color: rgb(8, 236, 187);
+  font-size: medium;
+}
+
+.form-container button{
+    text-align: center;
+  padding: 12px;
+  display: flex;
+  
+  margin-left: 300px;
+  margin-top: 40px;
+  width:80px;
+  border-radius: 15px;
+  border-color: rgb(237, 7, 191);
+  font-size: medium;
+  background-color: rgb(21, 22, 22) ;
+  color: rgb(243, 236, 236);
+}
+.form-container p{
+
+  color: white;
+  text-align: center;
+  font-size: small;
+  margin-top: 50px;
+  margin-left: 100px
+  ;
+}
+.link{
+  color: rgb(10, 250, 222);
+  text-decoration: none;
+ font-weight: 10;
+ font-size: 15px;
+}
+
+
+.link:hover {
+  text-decoration: underline;
+}
+ 

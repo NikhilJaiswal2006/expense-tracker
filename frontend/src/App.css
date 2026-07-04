@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.dashboard{
+  display:flex;
+  min-height:100vh;
+}
+
+
+.main{
+  flex: 1;
+background-color: white;
+}
+
+.sidebarcomponent {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+  padding: 0;
+  margin: 0;
+width: 220px;
+height: 100vh;
+/* background: #111827; */
+background: #0F172A;
+color: #9CA3AF;
+position: sticky;
+}
+
+.appname{
+ margin-left: 10px;
+padding-top:25px;
+padding-right: 5px;
+color: #3B82F6;
+font-weight: 700;
+font-size: 18px;
+
+}
+.sidebaritem{
+
+  /* margin-top: 50px; */
+  margin-left: 35px;
+  text-decoration: none;
+  list-style: none;
+ 
+}
+
+
+.sidebaritem ul{
+color: #7693c4;
+
+
+}
+.sidebaritem ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-top: 30px;
+  
+}.sidebaritem ul li a{
+  text-decoration: none;
+  color: #CBD5E1;
+  padding: 12px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebaritem ul li a:hover{
+  background: #1E293B;
+  color: #FFFFFF;
+}
+.navbar{
+  height: 70px;
+  background-color: #1e293b;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 30px;position: sticky;
+}
+
+.nav-title h2{
+  color: white;
+}
+
+.nav-search input{
+  width: 350px;
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.nav-actions{
+  display: flex;
+  gap: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+
+
